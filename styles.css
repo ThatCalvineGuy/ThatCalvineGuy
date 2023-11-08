@@ -1,0 +1,41 @@
+body {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.section h2 {
+    font-size: 20px;
+}
+
+.section p, .section ul, .section ol {
+    margin-left: 10px;
+}
+
+.section ul, .section ol {
+    padding-left: 20px;
+}
+
+.section ul li, .section ol li {
+    margin-bottom: 10px;
+}
+
+/* CSS hacks for newer browsers */
+@media all and (min-width: 0px) {
+    body {
+        font-family: 'Lucida Sans', Arial, sans-serif;
+        background-color: #f8f8f8;
+    }
+
+    .section {
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    }
+}
